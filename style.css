@@ -1,0 +1,123 @@
+/*  Table of Content (Index)
+        1. Global
+        2. RootContainer
+        3. Game
+*/
+
+/*  =======================
+    1. Global
+    ======================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background: #D5D4D4;
+    color: black;
+
+    font-size: 16px;
+    text-align: left;
+}
+
+@media screen and (min-width: 769px) {
+
+    html, body {
+        font-size: 18px;
+    }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, button {
+    font-size: 1rem;
+    color: black;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+
+    padding: 0.63em 1.563em;
+
+    border: 1.5px solid black;
+    background: white;
+
+    text-align: center;
+}
+
+/*  =======================
+    2. RootContainer
+    ======================= */
+body > section {
+    width: 100%;
+    padding: 1% 10%;
+
+    text-align: center;
+}
+
+body > section > header {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+body > section > main {
+    width: 100%;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 1.5rem;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+/*  =======================
+    3. Game
+    ======================= */
+
+/* Output */
+ul#output {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+ul#output > li {
+
+    margin: 0 0 1rem 0;
+    padding: 0.63em 1.563em;
+
+    border-radius: 8px;
+    border: 1px solid black;
+    
+    background: white;
+    color: black;
+}
+
+ul#output > li.red {
+    background: palevioletred;
+}
+
+ul#output > li.blue {
+    background: aquamarine;
+}
+
+ul#output > li.redblue {
+    background: #D17D55;
+}
