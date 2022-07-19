@@ -1,6 +1,6 @@
 const simpleFizzBuzz = (start=1, end=100) => {
 
-    logCallbackName("simpleFizzBuzz")
+    logCallbackName("simpleFizzBuzz");
 
     let output;
 

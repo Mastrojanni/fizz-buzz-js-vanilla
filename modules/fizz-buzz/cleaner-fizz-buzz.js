@@ -6,7 +6,7 @@ const textIsDivisible = (dividend, divider, successText) => {
 
 const cleanerFizzBuzz = (start=1, end=100) => {
 
-    logCallbackName("complexFizzBuzz")
+    logCallbackName("complexFizzBuzz");
 
     let output;
 

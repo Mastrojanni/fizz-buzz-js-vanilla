@@ -20,8 +20,9 @@ const modularFizzBuzz = (isSimple, start=1, end=100) => {
 
 const main = () => {
 
-    modularFizzBuzz(true);
-    modularFizzBuzz();
+    injectLogSeparators(easyFizzBuzz);
+    // modularFizzBuzz(true);
+    // modularFizzBuzz();
     frontendFizzBuzz();
 };
 
